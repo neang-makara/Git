@@ -39,7 +39,11 @@ class MyApp extends StatelessWidget {
             ];
           },
           body: Center(
-            child: Text("Sample Text"),
+            child: Column(
+              children: <Widget>[
+                Center(child: Text("Test"),)
+              ],
+            )
           ),
         ),
       ),
